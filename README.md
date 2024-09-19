@@ -27,7 +27,8 @@ Sí, pero en etapas más avanzadas del proyecto.
 | Columnas | Información | Tipo de dato |
 | -------- | ------ | ---------- |
 | Id | representa una llave única para cada muestra | string |
-| Secuencia | Strings de las bases en el ADN  | string |
+| Secuencia reverse | Strings de las bases en el ADN en un sentido  | string |
+| Secuencia forward | Strings de las bases en el ADN en sentido contrario | string |
 | No. spots | número de reads en las muestras crudas | int |
 | No. de bases  | cantidad de bases (adenina, timina, guanina, citosina) en total de los reads | int
 | Size | Peso en Mb de los datos | float |

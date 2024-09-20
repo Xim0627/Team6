@@ -20,14 +20,14 @@ Los datos a usar en este proyecto son secuencias de ADN, disponibles  en la base
 - ¿El conjunto de datos que tengo realmente me sirve para responder algunas de las preguntas que me planteé? 
 Sí, pero en etapas más avanzadas del proyecto.
 - ¿Qué tamaño tiene mi conjunto de datos? ¿Serán datos suficientes? 
-51 filas, 5 columnas. 
+51 filas, 9 columnas. 
 - ¿Qué columnas tengo y qué información tengo en cada una de esas columnas?
 
 
 | Columnas | Información | Tipo de dato |
 | -------- | ------ | ---------- |
 | Id | representa una llave única para cada muestra | string |
-| Sequence | Strings de las bases en el ADN en un sentido  | string |
+| Sequence | Strings de las bases en el ADN  | string |
 | No. spots | número de reads en las muestras crudas | int |
 | No. de bases  | cantidad de bases (adenina, timina, guanina, citosina) en total de los reads | int
 | Size | Peso en Mb de los datos | float |
